@@ -1,0 +1,158 @@
+@import url('./reset.css');
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container {
+    width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .container {
+        min-width: 320px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        padding: 0 65px;
+    }
+}
+
+        .ad {
+    
+        }
+       .ad-wrap {
+            background-color: rgba(12, 12, 12, 1);
+            background-image: 
+                url(../img/ad-banner.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 30px;
+        }
+    
+        .ad-text {
+                font-family: Gilroy;
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 44px;
+                    letter-spacing: -0.02em;
+                    text-align: left;
+                    max-width: 690px;
+                    padding: 83px 380px 83px 80px;
+                    color: #fff;
+        }
+          .ad-text-span {
+              color: #FBFBFB80;
+          }
+        .ad-btn-wrap {
+            display: flex;
+            position: relative;
+            align-items: center;
+        }
+    
+
+    
+        .ad-btn-link {
+        position: relative;
+        bottom: 220px;
+            font-family: Gilroy;
+            font-weight: 500;
+            font-size: 14px;
+            color: #fff;
+            border: 1px solid #FBFBFB26;
+            border-radius: 100px;
+            padding: 15px 43px;
+            background-color: transparent;
+            margin-left: auto;
+            margin-right: 80px;
+                display: flex;
+                align-items: center;
+                gap: 14px;
+        }
+    
+                @media screen and (min-width: 320px) and (max-width: 374px) {
+                 
+                }
+
+                                @media screen and (min-width: 768px) {
+                                }
